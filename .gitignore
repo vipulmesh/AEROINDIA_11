@@ -1,0 +1,93 @@
+# Python environments and packaging
+.venv/
+venv/
+env/
+ENV/
+.Python
+*.egg-info/
+dist/
+build/
+
+# Python caches and test/tooling output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor metadata
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets and credential material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Temporary files and local logs
+*.tmp
+*.temp
+*.bak
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter and notebook-generated files
+.ipynb_checkpoints/
+
+# Ultralytics/YOLO training, validation, and prediction output
+runs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+
+# Model checkpoints and exported inference artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.ckpt
+*.bin
+
+# Generated prediction media and result files
+predictions/
+predicted/
+prediction/
+results/
+inference_results/
+*_predictions.csv
+*_results.csv
+
+# Large local datasets. Keep dataset configuration and metadata files visible:
+# VAYU-NETRA-Dataset/data.yaml, VAYU-NETRA-Dataset/summary.json, and
+# visDroneDATASET/VisDrone.yaml remain eligible for version control.
+C2A_DataSet/
+visDroneDATASET/VisDrone2019-DET-*/
+VAYU-NETRA-Dataset/images/
+VAYU-NETRA-Dataset/labels/

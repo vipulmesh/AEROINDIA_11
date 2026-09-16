@@ -1,0 +1,7 @@
+path: /home/vipulmeshram/Desktop/SIH_AERO/VAYU-NETRA-Dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: person
